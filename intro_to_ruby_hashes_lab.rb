@@ -1,8 +1,9 @@
 def base_hash
   united_states_capitals = {
 		:california => {
-			:capital => "Sacromento"
-			:capital_climate => "Hot"
+			"Cali" => {
+				:capital => "Sacromento"
+				:capital_climate => "Hot"
 		}
 end
 
