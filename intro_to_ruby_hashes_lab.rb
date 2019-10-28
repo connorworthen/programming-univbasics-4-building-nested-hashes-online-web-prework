@@ -1,14 +1,23 @@
 def base_hash
   united_states_capitals = {
-		:california => {
-			"Cali" => {
+		:north_america => {
+			"california" => {
 				:capital => "Sacromento"
 				:capital_climate => "Hot"
 		}
 end
 
 def monopoly_with_second_tier
-
+	united_states_capitals = {
+		:california => {
+			"Cali" => {
+				:capital => "Sacromento"
+				:capital_climate => "Hot"
+		},
+		"oregon" => {
+			:capital => "Salem"
+			:capital_climate => "cold"
+		}
 end
 
 def monopoly_with_third_tier
